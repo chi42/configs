@@ -1,4 +1,4 @@
-URxvt*font: xft:Bitstream Vera Sans Mono:size=9.5
+URxvt*font: xft:Bitstream Vera Sans Mono:size=10
 urxvt*scrollBar:true
 
 URxvt.perl-ext-common: default,clipboard
@@ -27,6 +27,54 @@ URxvt*color14 : #34E2E2
 ! white
 URxvt*color7  : #D3D7CF
 URxvt*color15 : #EEEEEC
+
+!!------------------------------------------------------------------------------
+!! u r x v t
+!
+!!URxvt*geometry:         112x22  
+!URxvt*font: xft:Bitstream Vera Sans Mono:size=10
+!!URxvt*font:             xft:terminus:size= 8.5
+!URxvt*urlLauncher:      firefox  
+!
+!URxvt.matcher.button: 1
+!!URxvt*scrollBar:true 
+!urxvt.scrollstyle:plain
+!URxvt.saveLines : 200000
+!URxvt.perl-ext-common: default,clipboard
+!URxvt.perl-ext: default,clipboard
+!
+!!------------------------------------------------------------------------------
+!! c o l o r -  s e t t i n g s
+!
+!URxvt*foreground: #000000
+!URxvt*background: #fcfcfc
+!
+!! black
+!*color0: #2F2E2D
+!*color8: #4A4845
+!! red
+!*color1: #A36666
+!*color9: #D78787
+!! green
+!*color2: #8FA57E
+!*color10: #A9BA9C
+!! yellow
+!*color3: #D7AF87
+!*color11: #E4C9AF
+!! blue
+!*color4: #7FA5BD
+!*color12: #A1BDCE
+!! magenta
+!*color5: #C79EC4
+!*color13: #D7BEDA
+!! cyan
+!*color6: #8ADBB4
+!*color14: #B1E7DD
+!! white
+!*color7: #D0D0D0
+!*color15: #EFEFEF
+
+
 
 ! Colour scheme
 !urxvt*background:#555753
