@@ -1,5 +1,10 @@
 URxvt*font: xft:Bitstream Vera Sans Mono:size=10
+URxvt*urlLauncher:      firefox  
 urxvt*scrollBar:true
+URxvt.matcher.button: 1
+Urxvt.scrollstyle:plain
+URxvt.saveLines : 200000
+
 
 URxvt.perl-ext-common: default,clipboard
 
