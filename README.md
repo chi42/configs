@@ -1,4 +1,6 @@
 configs
 =======
 
-All my personal configs
+All my personal configs: 
+
+- vim 
