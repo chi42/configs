@@ -158,6 +158,10 @@ bar {
         status_command i3status
 }
 
+
+#for_window [class="xfce4-notifyd" instance="hello"] floating enable
+for_window [title="xfce4-notifyd"] floating enable
+
 # per window attributes
 #for_window [class="mplayer"] floating enable
 #for_window [class="gimp"] floating enable
