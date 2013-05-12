@@ -1,17 +1,23 @@
-! Swap caps lock and escape
-!remove Lock = Caps_Lock
-!keysym Escape = Caps_Lock
-!keysym Caps_Lock = Escape
-!add Lock = Caps_Lock
+!clear Lock
+!clear Mod1
+!clear Mod4
+!
+!add Mod1 = Meta_L Meta_R
+!add Mod4 = Alt_L Alt_R
+!
+!keycode 9 = Caps_Lock NoSymbol Caps_Lock NoSymbol !keycode 66 = Escape NoSymbol Escape NoSymbol 
 
-! escape = 9
-! left alt = 64
-! caps lock = 66
-! super r = 133
-
+!keycode 134 = Alt_R Meta_R Alt_R Meta_R 
+!keycode 133 = Super_L NoSymbol Super_L 
+!keycode 133 =  q q q q
+!keycode 133 = NoSymbol NoSymbol NoSymbol NoSymbol 
+!keycode 204 = NoSymbol NoSymbol NoSymbol NoSymbol
+!
+!
 clear Lock
 
 keycode 9 = Caps_Lock NoSymbol Caps_Lock
 !keycode 64 = Super_L NoSymbol Super_L
 keycode 66 = Escape NoSymbol Escape
 keycode 133 = Alt_L Meta_L Alt_L Meta_L
+
