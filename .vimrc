@@ -25,7 +25,12 @@ set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         
 
-set colorcolumn=80      "remember to not go past 80 chars
+"remember to not go past 80 chars
+if exists('+colorcolumn')
+    set colorcolumn=80
+else
+    match ErrorMsg '\%>80v.\+'
+endif
 
 set wildmenu            "wildmenu does command completion
 set wildmode=list:longest,full
