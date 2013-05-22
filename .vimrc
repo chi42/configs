@@ -8,7 +8,7 @@ map <F4> :NERDTreeToggle<CR>
 "map <F4> :Clam tools/commitdiff<CR><c-w>w:q<CR>:set syntax=diff<CR>
 map <F9> :set tw=80<CR>
 map <F10> :set tw=0<CR>
-map :in vip gq 
+map :in vip gq
 
 set hlsearch
 set incsearch
@@ -23,9 +23,13 @@ set ruler
 set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
-set foldlevel=1         
+set foldlevel=1
 
 set colorcolumn=80      "remember to not go past 80 chars
+
+" highlight trailing spaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/"
 
 set wildmenu            "wildmenu does command completion
 set wildmode=list:longest,full
@@ -33,5 +37,5 @@ set wildmode=list:longest,full
 set ttymouse=xterm2     "mouse settings
 set mouse=a
 
-execute pathogen#infect() 
+execute pathogen#infect()
 execute pathogen#helptags()
