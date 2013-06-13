@@ -20,10 +20,10 @@ set softtabstop=4
 set laststatus=2        " always show the status bar
 set ruler
 
-set foldmethod=indent   "fold based on indent
+set foldmethod=syntax   "fold based on syntax
 set foldnestmax=10      "deepest fold is 10 levels
-set nofoldenable        "dont fold by default
-set foldlevel=1
+set foldlevel=4
+set foldcolumn=4
 
 "remember to not go past 80 chars
 if exists('+colorcolumn')
