@@ -23,6 +23,10 @@ font xft:Bitstream Vera Sans Mono 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# volume hotkeys
+bindsym XF86AudioRaiseVolume exec amixer sset Master playback 3%+
+bindsym XF86AudioLowerVolume exec amixer sset Master playback 3%-
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
