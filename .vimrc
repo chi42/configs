@@ -14,16 +14,17 @@ set hlsearch
 set incsearch
 set number
 set expandtab
-set tabstop=8
+set tabstop=4
 set softtabstop=4
+set shiftwidth=4
 
 set laststatus=2        " always show the status bar
 set ruler
 
 set foldmethod=syntax   "fold based on syntax
-set foldnestmax=10      "deepest fold is 10 levels
-set foldlevel=4
-set foldcolumn=4
+"set foldnestmax=10      "deepest fold is 10 levels
+"set foldlevel=4
+"set foldcolumn=4
 
 "remember to not go past 80 chars
 if exists('+colorcolumn')

@@ -5,6 +5,10 @@ URxvt.matcher.button: 1
 Urxvt.scrollstyle:plain
 URxvt.saveLines : 200000
 
+
+URxvt*foreground: #000000
+URxvt*background: #ffffff
+
 URxvt.iso14755: false 
 URxvt.iso14755_52: false
 
